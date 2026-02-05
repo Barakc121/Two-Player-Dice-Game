@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test Ron&Dani</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="game game--active" id="game">
+        <div class="controls-top">
+            <button class="btn-small" onclick="saveGame()"> Save Game</button>
+            <button class="btn-small" onclick="loadGame()"> Load Game</button>
+            <div class="target-score">Target: 100</div>
+            <button class="btn-new"> New Game</button>
+        </div>
+
+        <div class="players-container">
+            
+            <section class="player player--0 player--active">
+                <h2 class="name" id="name--0">Ron</h2>
+                <p class="score" id="score--0">0</p> 
+                <div class="current">
+                    <p class="current-label">Last Roll</p>
+                    <p class="current-score" id="current--0">0</p>
+                </div>
+            </section>
+
+            <section class="player player--1">
+                <h2 class="name" id="name--1">Dani</h2>
+                <p class="score" id="score--1">0</p>
+                <div class="current">
+                    <p class="current-label">Last Roll</p>
+                    <p class="current-score" id="current--1">0</p>
+                </div>
+            </section>
+        </div>
+
+        <div class="dice-container">
+            <div class="numbers"></div>
+            <div class="numbers"></div>
+            
+            <img src="image/dice-5.png" alt="Dice 1" class="dice dice-1 hidden">
+            <img src="image/dice-5.png" alt="Dice 2" class="dice dice-2 hidden">
+        </div>
+
+        <div class="btn-container">
+            <button class="btn btn--roll"> Roll Dice</button>
+            <button class="btn btn--hold"> Pass</button>
+        </div>
+        
+        
+
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
