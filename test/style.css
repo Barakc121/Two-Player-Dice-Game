@@ -168,7 +168,7 @@ main {
     font-size: 0.9rem;
     border: 1px solid #e5e7eb;
     border-radius: 8px;
-    background: white;
+    background: rgb(166, 167, 165);
     color: #1f2937;
     cursor: pointer;
     font-weight: 600;
